@@ -1,0 +1,52 @@
+.outer-wrapper {
+  padding-left: 170px;
+  padding-right: 170px;
+}
+h1{
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+/* Optional: For mobile responsiveness */
+@media (max-width: 768px) {
+  .outer-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+
+
+.contact-page-container {
+ 
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  
+ 
+   display: flex;
+  flex-direction: row;
+
+
+}
+
+.half-width {
+  flex: 1;
+  min-width: 300px;
+  max-width: 50%;
+  box-sizing: border-box;
+}
+
+/* Responsive: Stack on smaller screens */
+@media (max-width: 768px) {
+  .half-width {
+    max-width: 100%;
+  }
+}
+
+
+
+.information-full-width {
+  width: 100%;
+  margin-top: 20px;
+}
